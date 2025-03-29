@@ -4,8 +4,8 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import serverless from 'serverless-http';
 
-import authRoutes from './routes/auth.routes.js';
-import postRoutes from './routes/post.routes.js';
+import authRoutes from '../routes/auth.routes.js';
+import postRoutes from '../routes/post.routes.js';
 
 dotenv.config();
 
